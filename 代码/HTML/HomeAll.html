@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renaissance</title>
+    <link rel="stylesheet" href="../CSS/HomeAll.css">
+    <link rel="stylesheet" href="../CSS/LogIn.css">
+    <link rel="stylesheet" href="../CSS/Search.css">
+    <!-- <link rel="stylesheet" href="../CSS/LogInAfter.css"> -->
+</head>
+
+<body>
+    <!-- <div id="startMood" class="Mood">
+        我是初始页面！！！弄点动画效果吧！
+    </div> -->
+    <div class="tab">
+        <div class="tab_list">
+            <ul>
+                <li>
+                    <img src="../../素材/登录.png" alt="">
+                </li>
+                <li>
+                    <img src="../../素材/搜索.png" alt="">
+                </li>
+                <li>
+                    <img src="../../素材/排行.png" alt="">
+                </li>
+                <li>
+                    <img src="../../素材/播放列表管理.png" alt="">
+                </li>
+                <li>
+                    <img src="../../素材/唱片.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="tab_mood">
+            <!-- 登录模块 -->
+            <div id="logInMood" class="mood">
+                <!-- 登录窗口 -->
+                <div class="backgroundCover"></div>
+                <div class="logInWindon" id="notLogIn">
+                    <h1>Login</h1>
+                    <form>
+                        <div class="box1">
+                            <img src="../../素材/登录.png" alt="">
+                            <input type="text" placeholder="Username" id="userName">
+                        </div>
+                        <div class="box1">
+                            <img src="../../素材/登录密码.png" alt="">
+                            <input type="password" placeholder="password" id="passWord">
+                        </div>
+                        <div class="box2">
+                            <input type="button" value="Login" id="logInBtn">
+                        </div>
+                    </form>
+                </div>
+                <!-- 登录后页面 -->
+                <div id="isLogInMood"></div>
+            </div>
+            <!-- 搜索模块 -->
+            <div id="searchMood" class="mood">
+                <div class="searchline">
+                    <input type="text" id="searchBox" placeholder="想听什么？" />
+                    <button id="searchBtn">冲鸭！</button>
+                </div>
+                <div class="songslistbox">
+                    <div class="songslistnav">
+                        <span class="songName">歌曲名称</span>
+                        <span class="singerName">歌手</span>
+                        <span class="albumName">专辑</span>
+                        <span class="songTime">时长</span>
+                    </div>
+                    <ul class="appearbox">
+                    </ul>
+                </div>
+                <audio id="audio" controls="controls" loop="true">
+                    <source src="" type="audio/mpeg" />
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <!-- 排行模块 -->
+            <div id="paihangMood" class="mood">
+                我是排行模块！！！
+            </div>
+            <!-- 列表模块 -->
+            <div id="listMood" class="mood">
+                我是列表模块！！！
+            </div>
+            <!-- 播放器模块 -->
+            <div id="nowSongMood" class="mood">
+                我是播放器模块！！！
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/HomeAll.js"></script>
+    <script src="../JS/LogIn.js"></script>
+    <script src="../JS/Search.js"></script>
+</body>
+
+</html>

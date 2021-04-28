@@ -1,0 +1,9 @@
+#startMood {
+    display: block;
+    width: 1800px;
+    height: 800px;
+    line-height: 500px;
+    font-size: 100px;
+    color: pink;
+    margin-left: 300px;
+}
